@@ -20,6 +20,7 @@ export default function TabsLayout() {
                 name="index"
                 options={{
                     headerTitle: "Sticker Smash",
+                    title: "Home",
                     tabBarIcon: ({ color, focused }) => (
                         <Ionicons
                             name={focused ? "home-sharp" : "home-outline"}
@@ -33,6 +34,7 @@ export default function TabsLayout() {
                 name="about"
                 options={{
                     headerTitle: "About",
+                    title: "About",
                     tabBarIcon: ({ color, focused }) => (
                         <Ionicons
                             name={
